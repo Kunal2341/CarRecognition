@@ -1,3 +1,7 @@
+# Future Plan
+- First Build own detection for lisence plate
+- Using the cleaning methods, and see the changes
+
 
 # CarRecognition
 -   Color
