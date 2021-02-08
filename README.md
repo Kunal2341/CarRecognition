@@ -40,3 +40,51 @@ cars = ['Alfa Romeo', 'Audi', 'BMW', 'Chevrolet', 'Citroen', 'Dacia', 'Daewoo', 
 	- Using tesseract to detect text on the license plate
 -   Make, Model, Year of Car
 	- Using the Stanford dataset I will be able to detect this
+
+
+
+## Inspiration
+Every building requires a parking lot, many of which are regulated meaning only a specific amount of people can park there. Some even have designated slots for each car. In order to maintain this order, the building administration needs to check if each car is in its correct parking lot position. This is an extreme waste of time and money. 
+
+A robot installed with a camera recording each parking lot and its car, it will be able to recognize each car in seconds. And then return any data to administration, for example a car parking in spot 300 when they are assigned spot 200. 
+
+## What it does
+
+The robot records a video of the entire row of the parking lot. Using AI, it processes this data to extract key criteria
+- Lisence Plate
+	- State
+	- Number
+- Car Color
+- Car logo
+
+From manually inputing the starting position, the robot can number each parking lot position and create a list of the cars in that lot. This can then be compared to a true value list to detect any anomalies.  
+
+## How we built it
+As it is hard to build a robot in a limited time frame we hand recorded video of different cars in the parking lot. We then split the code into 3 sections for each criteria. We used the GCP Vision API for the label detection and logo detection and with prelimenary tests we are running with a **96%** accuracy for both of them. 
+
+These are the following steps we used to built it
+1. Split the video into different frames to process each frame and then combine the data
+2. Connect to GCP key
+3. Detect objects in frame
+4. Get image data (size, type)
+5. Run Logo Detection
+6. Detect which colors are in frame
+7. Detect Lisence plate
+8. Use OCR to get lisence plate number
+9. Combine all data into Excel spreadsheet
+10.Compare to real sheet
+  
+
+## Challenges we ran into
+There was a lot of reflection in sunny **weather conditions** on some of the cars which changed the color of the image. 
+**Compression** of the image changed different ways to save and use the images
+Some lisence plates are temporary which affect the **OCR** model
+## Accomplishments that we're proud of
+Creating a visual of the Image Array using a highlight on top of the logo on the car
+Using selenium to get the specific English color name from the HEX value.
+## What we learned
+In order to process long videos of robot running through long car parking lots, we need to create each frame accuratly becuase processing every frame takes too long and every 2nd frame could increase speed without lowering accuracy.
+## What's next for Car Recognition and checking
+We belive this can be deployed at highschools where the parking lot is numbered and assigned to a pre-defined student and its car data is already given. This can be deployed very easily and futher move on
+
+
