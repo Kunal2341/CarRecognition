@@ -1,12 +1,3 @@
 { 
-"type": "service_account", 
-"project_id": "ace-case-272002", 
-"private_key_id": "95c5c49387372c9d7674a4e595abf5d3c8476b2e", 
-"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCK2GzYHwfEuI1n\nM+b9qQ04t4ULUn1CiFKY8yuifiLC+1hYJTBkKXMz+X8VkJMbOt8wh2T6WK/1VROg\nbac6KtFzl56Ts8E0O6ZiDd+R9cRniPEoLgPELwRcOO8Oe2flPZ9JVx0EXBOXTS9U\nhpnXkazVfBy+9zKz+TdzJchGgcdRQYBtp/NUFdlWcb04bMY4j2d/v5gztXlR3UmK\n134qbEns11L4KqWqznI+4dgkC6slL6Xj+S5xOWdwEx3E0mfgfMsebEyZSDwPFZ2u\nZMhoVfOXc+2jDckIelAe8Xqmx6iIjXKwycrI3Bz8EDecxLB/1l77Gh6coYQenbs6\naEMFfz17AgMBAAECggEADLU8WReV+sUNeX8ASwKNtD2PzsvRAnrpscK9S/+8J252\nf91/grC3MPBKrRWbcT2VL02Pyh4TP3ghoL2zNZlfrEhvT4N/USGN2/b7GdKNvxAt\n9Qh+eGv5O9ug0wmBJokvqrhvbnZi+1EpiNSnq1mo9lfdZa5zFJKLJwiJPnLNubu2\nL4/BvwkQO1TjwtivkO7zNG3mggmsWOhJrtAcrIr3djyM6coVtqhwo6HjdUk3yG3T\n/6ufh//miOvTPLRunCEUKzbyrUo/N4wKs6+WJHgSYaPcDp92cRpqn4YsXV94nJaR\noEiBVUZjftmfmikTr8cDKhxX2BkaoSkVjCWXe5CsIQKBgQC/wJbVSuuAbSY9UXZt\niue9zz7tqWq/1e8YhKbql8zJAiAOZEqrOIugwVm/OTSl+Lxk1f7mpTlZpAyizbII\njlxFQcwU6tXjO+J76zTLjxndyjraAwo5Cyt1OHdpX2DghRuLjvB9O/duK3BAS+VA\n20rkYJi0I8wTW6jNQQOGCdCzUQKBgQC5XcluxziTiOSnlxseIBxlnYGUTq0ugyT6\n0XKmhcOChAflO8lZ+MqYLypiusFLPQatCdb6Cdn2O1gPiPzANJ77GfbRHWK4HuZ/\nxDMNu5BhskSvFRK5jGajgZCmMH15A1LLmL7fcvwuGb4I/nlpmlQ9vRxBaSFZRu5T\nrnVT2FK5CwKBgBTdRMxCkatwtPd5FLTIp3ycv1Em3Qmwoop9bJgcGllI1Oob+Y/1\n4COGxlgrRlJE5WLncgvwsHPTiNhyH0wVCW8zwJwKDWnjSzqGlkEL+hmK9qpgKE2a\nrIjdswiRKz5i3WNrEzndO4gOS/GDEJflBJoi9JqtRnhYwd5Lk7GTAdVxAoGAe6T+\njwEeUPL4Kn3VndOnfXSBka6lQChES3XYNxF0pyNwrMyjc3tLkBWt/Ss7cfdj85pj\npmdZ1zAgfkRO69ptzWq1QymJxuz9rW3u7BMXrMMfo3W4BsKLWDc9iE1B9K1t1dau\nQxhM9GdBZnhv/ivuUzxIk60PjKCOqoztQB9Elp8CgYAtZmZ+jsleraeEBzd8mmPD\nxiMSZtR7/KZbNrJ1fU02E65iCiOnfGsdqjnSoDjVEvTkwCEqrBxsshF950DopOiD\nCbXoCW/x5vQQ/XpEjg7JruAfQ7TZHj2uXxduy1JEGA4popvBMVWrFVrn6n86Qd4S\nvrfdM0YHseftZMG1K5scHw==\n-----END PRIVATE KEY-----\n", 
-"client_email": "my-vision-sa@ace-case-272002.iam.gserviceaccount.com", 
-"client_id": "106120561829244179869", 
-"auth_uri": "https://accounts.google.com/o/oauth2/auth", 
-"token_uri": "https://oauth2.googleapis.com/token", 
-"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs", 
-"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-vision-sa%40ace-case-272002.iam.gserviceaccount.com"
+"delete":"deleted"
 }
